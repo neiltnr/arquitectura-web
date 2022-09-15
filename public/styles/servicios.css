@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(253, 187, 87);
+    color:rgb(119, 66, 1);
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+nav > * + * {
+    margin-left: 1.5rem;
+}
+
+div a {
+    background-color: rgb(215, 193, 153);
+    color: black;
+    padding: 0.75rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(215, 193, 153);
+}
+
+.logo {
+    width: 100%;
+    padding-top: 7rem;
+    padding-left: 30rem;
+    padding-right: 31rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#alumno {
+    display: flex;
+}
+
+#alumno div {
+    width: 38%;
+    flex-shrink: 0;
+}
+
+.img {
+    width: 100%;
+    padding-top: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#alumno h2 {
+    margin-left: 1.5rem;
+    margin-bottom: 0;font-size: 1.4rem;
+    font-size: 2.2rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 1.8rem;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+#alumno2 {
+    display: flex;
+}
+
+#alumno2 div {
+    width: 38%;
+    flex-shrink: 0;
+}
+
+.img2 {
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+#profesor {
+    display: flex;
+}
+
+#profesor div {
+    width: 38%;
+    flex-shrink: 0;
+}
+
+.img3 {
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 0;
+}
+
+#profesor h2 {
+    margin-left: 1.5rem;
+    margin-bottom: 0;font-size: 1.4rem;
+    font-size: 2.2rem;
+}
+
+#profesor2 {
+    display: flex;
+}
+
+#profesor2 div {
+    width: 38%;
+    flex-shrink: 0;
+}
+.img4 {
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 0;
+}
+
+#contacto {
+    display: flex;
+    background-color: black;
+    padding-left: 0rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: rgb(215, 193, 153);
+}
+
+#contacto div {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+#contacto div.secciones {
+    display: flex;
+    width: 80%;
+}
+
+#contacto div.datos {
+    display: flex;
+    width: 160%;
+}
+
+#contacto h4 {
+    margin-left: 15rem;
+    margin-bottom: 0;
+}
+#contacto p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding-left: 5rem;
+    margin-bottom: 0;
+    font-size: 16px;
+}  
+
+#contacto .img5 {
+    width: 100%;
+    padding-top: 1.2rem;
+    padding-left: 70%;
+}

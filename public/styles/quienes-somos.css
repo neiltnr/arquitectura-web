@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(253, 187, 87);
+    color:rgb(119, 66, 1);
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+nav > * + * {
+    margin-left: 1.5rem;
+}
+
+div a {
+    background-color: rgb(215, 193, 153);
+    color: black;
+    padding: 0.75rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(215, 193, 153);
+}
+
+#quienes-somos .logo {
+    width: 100%;
+    padding-top: 7rem;
+    padding-left: 30rem;
+    padding-right: 31rem;
+}
+
+#quienes-somos h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#quienes-somos p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#quienes-somos div.imagenes1 {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    justify-content: space-between;
+}
+
+#quienes-somos div.imagenes2 {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 21rem;
+    padding-right: 21rem;
+    justify-content: space-between;
+}
+
+#contacto {
+    display: flex;
+    background-color: black;
+    padding-left: 0rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: rgb(215, 193, 153);
+}
+
+#contacto div {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+#contacto div.secciones {
+    display: flex;
+    width: 80%;
+}
+
+#contacto div.datos {
+    display: flex;
+    width: 150%;
+}
+
+#contacto h4 {
+    margin-left: 15rem;
+    margin-bottom: 0;
+}
+#contacto p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding-left: 5rem;
+    margin-bottom: 0;
+}  
+
+#contacto .img4 {
+    width: 100%;
+    padding-top: 1.2rem;
+    padding-left: 70%;
+}
